@@ -12,6 +12,6 @@ export class Voiture extends Vehicule {
     set couleur(val) { this.#couleur = val; }
 
     afficherDetails() {
-        console.log(`🚘 ${this.afficherBase()} - Couleur : ${this.#couleur}`);
+        console.log(` ${this.afficherBase()} - Couleur : ${this.#couleur}`);
     }
 }
